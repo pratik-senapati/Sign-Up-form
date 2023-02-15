@@ -1,0 +1,43 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#main
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#leftbg
+{
+    background-image: url(extras/pic.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vh;
+    height:100%;
+
+}
+
+ul
+{
+    padding-right:15vh;
+    padding-left: 2vh;
+    margin:0;
+    list-style: none;
+}
+
+#details
+{
+    display:flex;
+    padding:10px;
+}
+
+label,input
+{
+    display:flex;
+    flex-direction: column;
+}
