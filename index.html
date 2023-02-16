@@ -11,8 +11,11 @@
 <body>
     <div id="main">
         <div id="leftbg">
-            <div id="logo">
+            <div class="logo">
                 <img src="extras\odin-lined.png" id="logo">
+                <p id="odin">
+                    ODIN
+                </p>
             </div>
 
         </div>
@@ -33,29 +36,29 @@
                         <ul id="c1">
                             <li>
                                 <label for="fname">FIRST NAME</label>
-                                <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+                                <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
                             </li>
                             <li>
                                 <label for="email">EMAIL</label>
-                                <input type="email" name="email" id="email" placeholder="xyz@somewhere.abc">
+                                <input type="email" name="email" id="email" placeholder="xyz@somewhere.abc" required>
                             </li>
                             <li>
                                 <label for="password">PASSWORD</label>
-                                <input type="password" name="password" id="password" placeholder="Enter your password">
+                                <input type="password" name="password" id="password" placeholder="Enter your password" required>
                             </li>
                         </ul>
                         <ul id="c2">
                             <li>
                                 <label for="lname">LAST NAME</label>
-                                <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+                                <input type="text" name="lname" id="lname" placeholder="Enter your last name" >
                             </li>
                             <li>
                                 <label for="phone_number">PHONE NUMBER</label>
-                                <input type="tel" name="phone_number" id="phone_number" placeholder="Enter your phone number">
+                                <input type="tel" name="phone_number" id="phone_number" placeholder="Enter your phone number" required>
                             </li>
                             <li>
                                 <label for="cpassword">CONFIRM PASSWORD</label>
-                                <input type="password" name="cpassword" id="cpassword" placeholder="Enter your password again">
+                                <input type="password" name="cpassword" id="cpassword" placeholder="Enter your password again" required>
                             </li>
                         </ul>
                         </div>
@@ -63,7 +66,7 @@
                 </form>
                     <div>
                         <div id="button">
-                            <button id="mainbutton">
+                            <button id="mainbutton" type="submit">
                                 Create Account
                             </button>
                         </div>
