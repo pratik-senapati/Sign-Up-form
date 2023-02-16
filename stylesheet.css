@@ -6,10 +6,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-html, body
+html
 {
     margin:0;
-    height:100%:
 }
 #main
 {
@@ -17,6 +16,7 @@ html, body
     flex-direction: row;
     padding:0;
     margin:0;
+    height:200vh;
 }
 
 #leftbg
@@ -25,7 +25,7 @@ html, body
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-    width: 80vh;
+    width: 125vh;
     height:100%;
 
 }
@@ -42,13 +42,18 @@ ul
     
 }
 
+#main
+{
+    height:110vh;
+}
+
 #details
 {
     display:flex;
-    padding:10px;
     padding-bottom:4vh ;
     justify-content: center;
     align-items: center;
+    padding-top: 3.5vh;
 }
 
 label,input
@@ -62,11 +67,15 @@ label
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0.8rem;
     color:gray;
+    padding-bottom: 0.5vh;
 }
 
 input
 {
     font-family: Arial, Helvetica, sans-serif;
+    padding:1vh;
+    border-radius: 0.75vh;
+    border-color: #DEDEDE;
 }
 
 #sign
@@ -75,6 +84,9 @@ input
     flex-direction: column;
     justify-content: center;
     padding:5vh;
+    padding-left: 0;
+    background-color: #FAFAFA;
+    width:100%
     
 }
 
@@ -87,6 +99,7 @@ input
     width:75vh;
     padding-bottom: 10vh;
     font-size: 3vh;
+    margin-left:5vh;
 }
 
 #more
@@ -98,4 +111,33 @@ input
     width:100vh;
     padding-bottom: 10vh;
     font-size: 2.5vh;
+    margin-left:5vh;
+}
+
+#button
+{
+    padding:4vh 4vh 4vh 4vh;
+}
+
+#mainbutton
+{
+    background-color: rgb(85, 107, 47);
+    color: white;
+    border: none;
+    padding: 2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2vh;
+}
+
+#field
+{
+    border-style:solid;
+    border-color: #DEDEDE;
+    width:100vh;
+    box-shadow: 0px 5px 18px 3px #DEDEDE;
 }
