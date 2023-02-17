@@ -1,3 +1,3 @@
 # Sign-Up-form
-A regular sign up form__
+A regular sign up form  <br />
 Website:  https://crimsontypo.github.io/Sign-Up-form/
