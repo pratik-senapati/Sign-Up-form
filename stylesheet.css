@@ -1,3 +1,13 @@
+@font-face 
+{
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+        url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *
 {
     padding:0;
@@ -72,8 +82,10 @@ label
 
 input
 {
+    outline:none;
     font-family: Arial, Helvetica, sans-serif;
     padding:1vh;
+    border-style:solid;
     border-radius: 0.75vh;
     border-color: #DEDEDE;
 }
@@ -141,7 +153,8 @@ input
     border-color: #DEDEDE;
     width:100vh;
     position: relative;
-    box-shadow: 7px 2px 8px 5px #DEDEDE
+    box-shadow: 7px 2px 8px 5px #DEDEDE;
+    margin-left:4vh;
 }
 
 #text
@@ -173,8 +186,10 @@ input
 #odin
 {
     color: white;
-    font-size: 10vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20vh;
+    font-family: 'norsebold';
+    
+    
 }
 
 
@@ -189,4 +204,17 @@ input:focus {
     box-shadow: 0px 2px 8px 0px #DEDEDE;
     color: #d3d3d3;
 
+}
+
+
+#log
+{
+    color: rgb(85, 107, 47);
+    text-decoration: none;
+}
+
+#log:visited
+{
+    color: rgb(85, 107, 47);
+    text-decoration: none;
 }
